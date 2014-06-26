@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
-./manage.py schemamigration rmnd --auto
-./manage.py migrate rmnd
+# requires South:
+# pip install south
+
+./manage.py schemamigration remind --auto
+./manage.py migrate remind
