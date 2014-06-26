@@ -1,0 +1,7 @@
+<ul>
+{% for event in event_list %}
+   <li> {{ event }} </li>
+{% empty %}
+    nothing yet
+{% endfor %}
+</ul>
