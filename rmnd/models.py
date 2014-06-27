@@ -8,4 +8,4 @@ class Event(models.Model):
     description = models.TextField(max_length=200)
 
     def __unicode__(self):
-        return self.name + " @ " + str(self.date) + ": " + self.description
+        return self.name
